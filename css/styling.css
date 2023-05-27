@@ -1,0 +1,31 @@
+body {
+    background-color: black;
+}
+
+.lines {
+    position: absolute;
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100vw;
+    height: 1px;
+}
+
+#l2 {
+    margin-top: 50px;
+}
+
+.container {
+    display: flex;
+}
+
+.box {
+    position: relative;
+    height: 30px;
+    width: 100px;
+    top: 325px;
+    background-color: white;
+    margin-right: 10px;
+
+}
